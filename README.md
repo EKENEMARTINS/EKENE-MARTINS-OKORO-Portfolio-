@@ -2,7 +2,7 @@
 
 A responsive, single-page developer portfolio created with semantic HTML5, CSS3, and vanilla JavaScript.
 
-Live site: https://EKENEMARTINS.github.io/developer-portfolio/
+Live site: https://ekenemartins.github.io/EKENE-MARTINS-OKORO-Portfolio-/
 <!-- Replace the line above with your real live URL after you deploy, if it is different -->
 
 ## About
