@@ -1757,4 +1757,37 @@ a { color: inherit; text-decoration: none; }
 
 }
 
+/* Fix: floating WhatsApp + back to top must show on mobile */
+@media (max-width: 680px) {
+  .floating-contact {
+        display: grid !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: fixed !important;
+        right: 16px !important;
+        bottom: 16px !important;
+        width: 52px !important;
+        height: 52px !important;
+        z-index: 300 !important;
+  }
+
+  .back-to-top {
+        display: grid !important;
+        visibility: visible !important;
+        position: fixed !important;
+        right: 16px !important;
+        bottom: 84px !important;
+        width: 44px !important;
+        height: 44px !important;
+        z-index: 300 !important;
+  }
+
+  .back-to-top.visible {
+        opacity: 1 !important;
+        pointer-events: auto !important;
+  }
+}
+
+
+
 
